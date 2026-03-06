@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(232, 0, 0, 0.642);
   background-color: #242424;
 
   font-synthesis: none;
@@ -65,4 +65,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+@import "tailwindcss";  
+
+/* v4 不再需要导入 base/components/utilities，一个 @import 搞定 */
+
+@theme {
+  /* 如果你想自定义颜色，写在这里 */
+  --color-brand: #0088fe;
 }
